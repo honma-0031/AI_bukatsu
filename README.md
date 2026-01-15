@@ -56,10 +56,12 @@ git push -u origin main
 1. GitHubリポジトリのページにアクセス
 2. 上部のメニューから「Settings」をクリック
 3. 左側のサイドバーから「Pages」をクリック
-4. 「Source」セクションで以下を設定：
+4. 「Build and deployment」セクションの「Source」ドロップダウンを開く
+5. **「Deploy from a branch」**を選択（「GitHub Actions」ではなくこちらを選択）
+6. ブランチとフォルダの選択肢が表示されるので、以下を設定：
    - **Branch**: `main`を選択
    - **Folder**: `/ (root)`を選択
-5. 「Save」をクリック
+7. 「Save」をクリック
 
 ### 4. 公開URLの確認
 
